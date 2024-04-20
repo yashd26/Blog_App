@@ -1,0 +1,43 @@
+.record button {
+    width: 60px;
+    height: 25px;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.menu-toggle {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dot {
+    width: 50%;
+    height: 2px;
+    background-color: #333;
+}
+
+.options {
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px 0;
+}
+
+.option {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}

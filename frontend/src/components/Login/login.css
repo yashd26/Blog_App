@@ -1,0 +1,195 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+
+    position: absolute;
+    width: 720px;
+    height: 583px;
+    left: calc(50% - 720px/2);
+    top: 131.43px;
+}
+
+.login-container .logo {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 359px;
+height: 48px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.login-container .logo-heading {
+width: 307px;
+height: 48px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+
+color: #11174D;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.login-container .login-form {
+    /* Register */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    
+    height: 400px;
+    
+    /* Gray/200 */
+    border: 1px solid #E5E7EB;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.login-container .form-heading {
+    /* Register */
+
+width: 101px;
+/* height: 35px; */
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 510;
+font-size: 28px;
+/* line-height: 124%; */
+/* identical to box height, or 35px */
+display: flex;
+align-items: center;
+
+/* Gray/900 */
+color: #111111;
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+}
+
+.login-container .form-container {
+    /* Frame 1000003696 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 656px;
+
+}
+
+.login-container .input-container {
+/* Username or email address * */
+
+
+/* Body Text Small/Regular
+
+Regular
+*/
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 150%; */
+
+/* Gray/700 */
+color: #374151;
+}
+
+.login-container .label {
+    display: block;
+    /* Username or email address * */
+
+width: 191px;
+height: 21px;
+
+/* Body Text Small/Regular
+
+Regular
+*/
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 150%; */
+/* identical to box height, or 21px */
+
+/* Gray/700 */
+color: #374151;
+
+}
+
+.login-container .input {
+display: block;
+/* input */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px 16px;
+gap: 6px;
+
+width: 656px;
+height: 41px;
+
+background: #FFFFFF;
+/* Gray/300 */
+border: 1px solid #D1D5DB;
+border-radius: 4px;
+}
+
+.login-container .submit {
+    background-color: lightskyblue;
+/* display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px; */
+
+width: 82px;
+height: 32px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+/* flex: none;
+order: 2;
+flex-grow: 0; */
+/* display: block; */
+}
+
+.login-container .signup {
+    margin-left: 450px;
+}

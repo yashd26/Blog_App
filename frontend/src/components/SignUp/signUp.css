@@ -1,0 +1,257 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+
+    position: absolute;
+    width: 720px;
+    height: 583px;
+    left: calc(50% - 720px/2);
+    top: 134px;
+}
+
+.signup-container .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 359px;
+    height: 48px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.signup-container .logo-heading {
+    width: 307px;
+    height: 48px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #11174D;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.signup-container .signup-form {
+    /* Register */
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    
+    height: 600px;
+    
+    /* Gray/200 */
+    border: 1px solid #E5E7EB;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.signup-container .form-heading {
+    /* Register */
+
+    width: 101px;
+    /* height: 35px; */
+    
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 510;
+    font-size: 28px;
+    /* line-height: 124%; */
+    /* identical to box height, or 35px */
+    display: flex;
+    align-items: center;
+    
+    /* Gray/900 */
+    color: #111111;
+    
+}
+
+.signup-container .form-container {
+    /* Frame 1000003696 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 656px;
+}
+
+.signup-container .input-container {
+/* Username or email address * */
+
+
+/* Body Text Small/Regular
+
+Regular
+*/
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 150%; */
+
+/* Gray/700 */
+color: #374151;
+}
+
+.signup-container .label {
+    display: block;
+    /* Username or email address * */
+
+width: 191px;
+height: 21px;
+
+/* Body Text Small/Regular
+
+Regular
+*/
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 150%; */
+/* identical to box height, or 21px */
+
+/* Gray/700 */
+color: #374151;
+
+}
+
+.signup-container .input {
+    display: block;
+    /* input */
+    
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 16px;
+    gap: 6px;
+    
+    width: 656px;
+    height: 41px;
+    
+    background: #FFFFFF;
+    /* Gray/300 */
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+}
+
+.signup-container .submit {
+    background-color: lightskyblue;
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px; */
+    
+    width: 82px;
+    height: 32px;
+    
+    border-radius: 4px;
+    
+}
+
+.signup-container .checkbox-input {
+    /* Checkbox */
+
+box-sizing: border-box;
+
+width: 16px;
+height: 16px;
+
+/* Gray/300 */
+border: 1px solid #D1D5DB;
+border-radius: 4px;
+
+}
+
+.signup-container .checkbox-label {
+    /* Subscribe to our newsletter */
+
+width: 183px;
+height: 21px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+/* Gray/500 */
+color: #6B7280;
+}
+
+.signup-container .checkbox-container {
+    /* Frame 1000003700 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 207px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.signup-container .policy-text {
+    /* Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy. */
+
+width: 656px;
+height: 42px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+/* or 21px */
+
+/* Gray/500 */
+color: #6B7280;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}

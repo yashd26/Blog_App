@@ -1,0 +1,159 @@
+.articles-list .record-table {
+    /* Frame 427320296 */
+
+    /* Auto layout */
+    /* display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px; */
+
+    position: absolute;
+    width: 1800px;
+    height: 176px;
+    left: 88px;
+    top: 200px;
+}
+
+.articles-list .filter-tab {
+    /* Frame 427320298 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 1328px;
+    height: 34px;
+    left: 88px;
+    top: 116px;
+}
+
+/* .articles-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.article-list th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.article-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+} */
+
+.articles-list .search {
+    /* Input */
+
+box-sizing: border-box;
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 8px 8px 12px;
+gap: 10px; */
+
+width: 240px;
+height: 34px;
+
+/* Background/White */
+background: #FFFFFF;
+/* Text/7 */
+border: 1px solid #D1D1DB;
+border-radius: 4px;
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+flex-grow: 0; */
+
+}
+
+.articles-list .records-length {
+    /* 3 records */
+
+width: 300px;
+height: 14px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+/* Text/5 */
+color: #6C6B80;
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 1;
+flex-grow: 0; */
+
+}
+
+.articles-list .status-filter {
+    margin-left: 800px;
+    /* Frame 9067 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 104px;
+height: 34px;
+
+border-radius: 4px;
+
+}
+
+.articles-list .author-filter {
+    /* Frame 9068 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 135px;
+height: 34px;
+
+border-radius: 4px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

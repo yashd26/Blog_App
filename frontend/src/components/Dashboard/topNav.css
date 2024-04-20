@@ -1,0 +1,71 @@
+.dashboard-container .top-nav-sign {
+    /* icon / stroke / Menu
+
+Anron Icon, Line, Menu
+*/
+
+width: 44px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.dashboard-container .top-nav {
+    /* Frame 427320277 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 32px;
+gap: 16px;
+
+position: absolute;
+width: 96%;
+height: 92px;
+left: 64px;
+top: 0px;
+
+/* Text/8 */
+border-bottom: 1px solid #E1E1E8;
+
+}
+
+.dashboard-container .top-nav-content {
+    /* Frame 4982 */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: column;
+align-items: flex-start; */
+/* padding: 0px;
+gap: 4px; */
+
+margin-left: 20px;
+margin-top: -20px;
+width: 1030px;
+height: 44px;
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 1;
+flex-grow: 1; */
+}
+
+.dashboard-container .top-nav-content p{
+    margin-top: -10px;
+}
+
+.add-page {
+    height: 30px;
+    width: 200px;
+    background-color:antiquewhite;
+}

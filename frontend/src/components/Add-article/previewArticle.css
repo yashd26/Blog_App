@@ -1,0 +1,29 @@
+/* BlogPreview.css */
+.blog-preview {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.blog-preview .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-preview .author {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.blog-preview .sub-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.blog-preview .body-content {
+    font-size: 16px;
+    line-height: 1.6;
+}

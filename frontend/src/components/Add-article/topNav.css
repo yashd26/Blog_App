@@ -1,0 +1,100 @@
+.add-article-container .top-nav {
+    /* Frame 427320277 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 32px;
+    gap: 16px;
+
+    position: absolute;
+    width: 96%;
+    height: 92px;
+    left: 64px;
+    top: 0px;
+
+    /* Text/8 */
+    border-bottom: 1px solid #E1E1E8;
+
+}
+
+.add-article-container .top-nav-content {
+    /* Frame 4982 */
+
+    /* Auto layout */
+    /* display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px; */
+
+    width: 1300px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    /* flex: none;
+order: 1;
+flex-grow: 1; */
+
+    margin-top: -10px;
+}
+
+.add-article-container .top-nav-sign {
+    /* icon / stroke / Menu
+
+Anron Icon, Line, Menu
+*/
+
+    width: 44px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+    /* flex: none;
+order: 0;
+flex-grow: 0; */
+
+}
+
+.add-article-container .top-nav-menu {
+    /* Xpro Button */
+
+    /* Auto layout */
+    /* display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px;
+gap: 10px; */
+
+    width: 32px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+
+    /* Background/White */
+    background: #FFFFFF;
+    /* Primary/8 */
+    border: 2px solid #C7D2FE;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    /* flex: none;
+order: 2;
+flex-grow: 0; */
+
+}
+
+.top-nav .menu-container {
+    position: relative;
+    top: 10px;
+}
+
+.top-nav-status {
+    position: relative;
+    top: 15px;
+    right: 1150px;
+}
